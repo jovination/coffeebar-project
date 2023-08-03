@@ -1,0 +1,343 @@
+html{
+    font-family: 'poppins';
+    font-size: 65%;
+    
+}
+header{
+    margin: 0;
+}
+body{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.logo{
+    height: 5.5em;
+    width: 5.5em;
+    background: black;
+    border-radius: 3em;
+    background-image: url('../images/logo.jpg');
+    background-size: 100%;
+    background-position: center;
+    pointer-events: none;
+}
+
+
+.navbar{
+    width: 1000px;
+    display: flex; 
+    margin-top: 2em;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+.ul-nav{
+    display: flex;
+    gap: 38em;
+}
+.primary-nav{
+    align-items: center;
+    gap: 2em;
+    font-size: 1.8em;
+}
+.secondary-nav{
+    gap: 1em;
+    text-transform: uppercase;
+    font-size: 1.4em;
+    align-items: center;
+    background: black;
+    padding: 1em 2em;
+    border-radius: 2em;
+}
+
+
+.navbar ul li a{
+    text-decoration: none;
+    font-weight: 500;
+}
+.primary-nav  a{
+        color: black ;
+}
+.secondary-nav  a{
+        color: white;
+}
+.hero-section{
+    display: flex;
+    gap: 2em;
+    margin: 0;
+    margin-top: 1em;
+    font-size: 1.4em;
+    margin-bottom: 2em;
+}
+.lower-section h1{
+    font-size: 5.5em;
+    font-weight: 700;
+    color: black;
+    margin: 0;
+}
+.text-wrap{
+    margin-top: 1em;
+}
+.text-wrap p{
+    font-size: 1.8em;
+    font-weight: 500;
+    margin: 0;
+}
+
+.right-section{
+    margin: 0;
+    width: 32em;
+    height: 38em;
+}
+.left-section {
+    flex-grow: 1;
+    background-image: url('../images/coffee.jpg');
+    border-radius: 1.2em;
+    background-size: 105%;
+    transition: background-size 1000ms;
+
+}
+.left-section:hover{
+    background-size: 101.5%;
+}
+.upper-section{
+background-image: url('../images/coffee1.jpg');
+background-size: 100%;
+width: 32em;
+height: 16em;
+border-radius: 1.2em;
+}
+
+.product-btns{
+    margin-top: 3.6em;
+    display: flex;
+    gap: 1.5em;    
+}
+.hero{
+    background: gray;
+    border-radius: .6em;
+    width: 12em;
+    padding: .7em;
+    height: auto;
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+}
+.hero p{
+    margin: 0;
+}
+.card1 p, .card2 p{
+    font-size: .8em;
+    text-transform: uppercase;
+    color: grey;
+}
+.product {
+    text-decoration: none;
+    margin: 0;
+    color: black;
+    font-weight:bold;
+    font-size: 1.5rem;
+}
+.title1 {
+    color: white;
+   }
+.card1 {
+    background:  #111111;
+}
+
+
+.card2{
+    background: rgb(224, 224, 224);
+}
+.carticon{
+    margin: 0;
+    transform: scaleX(-1);
+}
+.carticon1{
+    margin: 0;
+    right: 40px;
+    width: 20px;
+    height: 20px;
+  transform: scaleX(-1);   
+    
+}
+.content{
+    margin-top: 16em;
+    margin-bottom: 5em;
+    max-height: 50em;
+    display: flex;
+    gap: 8em;
+    align-items: auto;
+    font-size: 1em;
+}
+.right-content{
+    width: 48em;
+    margin-top: 4em;
+}
+.right-content h1{
+    margin: 0;
+    font-weight: 700;
+    font-size: 5.5em;
+    color: black;
+    line-height: 1em;
+}
+.right-content p{
+    margin: 0;
+    color: black;
+    font-size: 1.55em;
+    margin-top: 0.8em;
+    margin-left: .3em;
+}
+.left-content{
+    width: 45em;
+    height: 45em;
+    background: grey;
+    background-image: url('../images/combo1.gif');
+    background-size: 100%;
+    background-position: center;
+}
+.card3 a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    font-size: 1.8em;
+    background: black;
+    margin-top: 2.2em;
+    padding: .85em;
+    width: 8em;
+    border-radius: 15em;
+    text-align: center;
+}
+/*.combo{
+    margin: 0;
+    margin-top: 2em;
+    min-height: 50em;
+    background-image: url('../images/combo2.gif');
+    margin-bottom: 2em;
+    background-position: center;
+    background-size: 100%;
+}*/
+.allproducts{
+    margin-top: 20em;
+    max-width: 1000px;
+    min-height: 550px;
+    margin-bottom: 2em;
+}
+.allproducts1{
+    max-width: 1000px;
+    min-height: 600px;
+    margin-bottom: 0em;
+}
+.allproducts h1{
+    text-align: center;
+    font-size: 5em;
+    margin: 0;
+    margin-bottom: 1em;
+
+
+}
+.products{
+    margin-top: 2em;
+    display: flex;
+    gap: 4em;
+    justify-content: space-evenly;    
+}
+.prod{
+    width: 26em;
+    height: 32em;
+    background: gray;
+    border-radius: 1.5em;
+    padding: 1.5em;
+    display: flex;
+    align-items: end;
+    transition: background-size 1000ms;
+
+}
+/*.prod:hover{
+    background-size: 102%;
+}*/
+.product1{
+    background-image: url('../images/milk.jpg');
+    background-position: center;
+    background-size: 100%;
+    top: 45%;
+}
+.product2{
+    background-image: url('../images/coca.jpg');
+    background-position: center;
+    background-size: 90%;
+}
+.product3{
+    background-image: url('../images/cafe1.jpg');
+    background-position: center;
+    background-size: 100%;
+
+}
+
+.product4{
+    background-image: url('../images/coca1.jpg');
+    background-position: center;
+    background-size: 145%;
+}
+.product5{
+    background-image: url('../images/combo3.jpg');
+    background-position: bottom;
+    background-size: 100%;
+}
+.product6{
+    background-image: url('../images/cafer.jpg');
+    background-position: center;
+    background-size: 100%;
+
+}
+.btn{
+    background: white;
+    border-radius: .6em;
+    padding: .6em;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn a{
+    color:black;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+}
+.btn p{
+ font-size: 1.4rem;
+ margin: 0;
+}
+p.pr-price{
+    font-size: 1.8rem;
+}
+.cs-wrap{
+    display: flex;
+    gap: 8em;
+    margin: 0;
+    margin-bottom: 4em;
+}
+.combo-street{
+    background: black;
+    width: 1000px;
+    height: 600px;
+    padding: 2em;
+    padding-top: 20em;
+    margin: 0;
+}
+.cs-left{
+    width: 42em;
+    height: 46em;
+}
+.cs-right{
+    flex-grow: 1;
+    background-image: url('../images/combo.jpg');
+    background-size: 130%;
+    background-position: center;
+    border-radius: 1.8em;
+
+}
