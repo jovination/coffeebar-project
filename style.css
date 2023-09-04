@@ -24,8 +24,9 @@ body{
 
 .navbar{
     width: 1000px;
+    height: 75px;
     display: flex; 
-    margin-top: 2em;
+    margin-top: .2em;
     align-items: center;
 }
 
@@ -34,22 +35,20 @@ nav ul{
     list-style-type: none;
 }
 .ul-nav{
+    width: 100%;
     display: flex;
-    gap: 38em;
+    gap: 416px;
 }
 .primary-nav{
     align-items: center;
-    gap: 2em;
+    gap: 1em;
     font-size: 1.8em;
 }
 .secondary-nav{
     gap: 1em;
     text-transform: uppercase;
     font-size: 1.4em;
-    align-items: center;
-    background: black;
-    padding: 1em 2em;
-    border-radius: 2em;
+    align-items: center
 }
 
 
@@ -62,6 +61,16 @@ nav ul{
 }
 .secondary-nav  a{
         color: white;
+        background: #080808 ;
+        padding: 1.2em 2em;
+        border-radius: 30px;
+        text-decoration: none;
+        font-weight: bold;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 10em;
 }
 .hero-section{
     display: flex;
@@ -69,7 +78,6 @@ nav ul{
     margin: 0;
     margin-top: 1em;
     font-size: 1.4em;
-    margin-bottom: 2em;
 }
 .lower-section h1{
     font-size: 5.5em;
@@ -160,17 +168,20 @@ border-radius: 1.2em;
     right: 40px;
     width: 20px;
     height: 20px;
-  transform: scaleX(-1);   
+    transform: scaleX(-1);   
     
 }
 .content{
-    margin-top: 16em;
-    margin-bottom: 5em;
-    max-height: 50em;
+    background: #000000;
+    width: 100%;
+    height: 650px;
     display: flex;
-    gap: 8em;
-    align-items: auto;
+    gap: 1em;
     font-size: 1em;
+    border-radius: 1.2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .right-content{
     width: 48em;
@@ -180,14 +191,14 @@ border-radius: 1.2em;
     margin: 0;
     font-weight: 700;
     font-size: 5.5em;
-    color: black;
+    color: #f0f0f0;
     line-height: 1em;
 }
 .right-content p{
     margin: 0;
-    color: black;
-    font-size: 1.55em;
-    margin-top: 0.8em;
+    color: #f0f0f0;
+    font-size: 1.8em;
+    margin-top: 1em;
     margin-left: .3em;
 }
 .left-content{
@@ -197,15 +208,16 @@ border-radius: 1.2em;
     background-image: url('../images/combo1.gif');
     background-size: 100%;
     background-position: center;
+    border-radius: 1.2em;
 }
 .card3 a{
     text-decoration: none;
-    color: white;
+    color: black;
     display: inline-block;
     font-size: 1.8em;
-    background: black;
+    background: #f0f0f0;
     margin-top: 2.2em;
-    padding: .85em;
+    padding: .7em;
     width: 8em;
     border-radius: 15em;
     text-align: center;
@@ -220,10 +232,9 @@ border-radius: 1.2em;
     background-size: 100%;
 }*/
 .allproducts{
-    margin-top: 20em;
-    max-width: 1000px;
-    min-height: 550px;
-    margin-bottom: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 4em;
 }
 .allproducts1{
     max-width: 1000px;
@@ -239,7 +250,6 @@ border-radius: 1.2em;
 
 }
 .products{
-    margin-top: 2em;
     display: flex;
     gap: 4em;
     justify-content: space-evenly;    
